@@ -1,0 +1,13 @@
+# ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠
+# This variables file is not encrypted and is for educational and demonstration 
+# purposes. It is highly recommended to encrypt any files containing secrets 
+# with Ansible Vault or other file encryption mechanisms!
+# ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ 
+aws_access_key = "DASF8A7DF8A/FAKE"
+aws_secret_key = "09DJSFWN4KJKNTFRGNLERK/FAKE"
+aws_region = "us-east-1"
+ise_password = "Some_Strong_Password"
+ad_admin_password = "Some_Strong_Password"
+ise_domain = "authc.net"
+ppan_name = "ppan"
+span_name = "span"
