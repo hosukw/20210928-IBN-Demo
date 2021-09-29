@@ -1,12 +1,14 @@
 # 20210928-IBN-Demo
 
 This project runs Terraform + Ansible demo for ISE. At a high level it does the following:
+
 Terraform:
 - Setup VPC and other networking resources
 - Setup ISE instances
 - Setup AWS Network Load Balancer
 - Setup Route 53 entries
 - Create Ansible varaibles file
+
 Ansible:
 - Setup AD
 - Add sample groups & users
