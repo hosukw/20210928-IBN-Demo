@@ -14,7 +14,7 @@ Ansible:
 - Add sample groups & users
 - Add sample network devices
 - add sample policy sets
-- For a deployment between the two ISE nodes
+- Form a deployment between the two ISE nodes
 
 This has been tested and supports Cisco ISE 3.1.
 
