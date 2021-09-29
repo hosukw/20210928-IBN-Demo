@@ -55,7 +55,7 @@ Rename the included `terraform.samplevars` to `terraform.tfvars` file and modify
 mv terraform.samplevars terraform.tfvars
 ```
 
-Modify the userdata entry in both ISE instances in the `aws_instance.tf` file. Note the username `admin` should not be changed and the `password` entry should be more than 8 characters long and have at least one of each; lowe, upper, and a number
+Modify the userdata entry in both ISE instances in the `aws_instance.tf` file. Note the username `admin` should not be changed and the `password` entry should be more than 8 characters long and have at least one of each; lower, upper, and a number
 
 Apply the configuration
 ```
