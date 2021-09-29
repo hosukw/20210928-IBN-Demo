@@ -1,12 +1,14 @@
 # 20210928-IBN-Demo
 
 This project runs Terraform + Ansible demo for ISE. At a high level it does the following:
+
 Terraform:
 - Setup VPC and other networking resources
 - Setup ISE instances
 - Setup AWS Network Load Balancer
 - Setup Route 53 entries
 - Create Ansible varaibles file
+
 Ansible:
 - Setup AD
 - Add sample groups & users
@@ -16,6 +18,8 @@ Ansible:
 
 This has been tested and supports Cisco ISE 3.1.
 
+![Diagram](demo_setup.png)
+
 ## Requirements
 - Ansible >= 2.9
 - Terraform >= 1.0.7
@@ -24,6 +28,7 @@ This has been tested and supports Cisco ISE 3.1.
 
 ## Install
 Terraform must be installed
+
 Ansible must be installed
 ```
 sudo pip install ansible

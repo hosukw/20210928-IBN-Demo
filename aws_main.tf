@@ -37,4 +37,3 @@ variable "span_name" {}
 
 # aws_output.tf
 # Create Ansible variable file with dynamic IP addresses
-# Create userdata files for ISE intances

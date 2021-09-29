@@ -1,9 +1,9 @@
 # Show IP assignments
 output "ppan" {
-    value = aws_network_interface.ppan-nic.private_ip
+    value = "https://${aws_network_interface.ppan-nic.private_ip}"
 }
 output "span" {
-    value = aws_network_interface.span-nic.private_ip
+    value = "https://${aws_network_interface.span-nic.private_ip}"
 }
 output "ubuntu-1" {
     value = aws_instance.ubuntu-1.private_ip
