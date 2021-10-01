@@ -7,7 +7,7 @@ Terraform:
 - Setup ISE instances
 - Setup AWS Network Load Balancer
 - Setup Route 53 entries
-- Create Ansible varaibles file
+- Create Ansible variables file
 
 Ansible:
 - Setup AD
@@ -21,10 +21,12 @@ This has been tested and supports Cisco ISE 3.1.
 ![Diagram](demo_setup.png)
 
 ## Requirements
-- Ansible >= 2.9
 - Terraform >= 1.0.7
-- [Cisco ISE SDK](https://github.com/CiscoISE/ciscoisesdk) v1.0.0 or newer
 - Python >= 3.6, as the Cisco ISE SDK doesn't support Python version 2.x
+- Ansible >= 2.9
+- [Cisco ISE SDK](https://github.com/CiscoISE/ciscoisesdk) v1.0.0 or newer
+- [Cisco ISE Ansible Module] (https://galaxy.ansible.com/cisco/ise)
+
 
 ## Install
 Terraform must be installed
